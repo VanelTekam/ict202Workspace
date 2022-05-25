@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-between align-items-center">
+    <h1>{{title}}</h1>
+    <app-button color="blue" text="Addd" (btnClick)="toggleAddCompetence()"></app-button>
+</div>
+<div class="container">
+    <app-add-competence (onAddCompetence)="addCompetence($e)"></app-add-competence>
+    <app-item-competence *ngFor="let competence of competences"
+        [competence]="competence"
+        (onDeleteCompetence)="deleteCompetence(competence)"
+        (onToggleReminder)="toggleReminder(competence)"></app-item-competence>
+</div>
