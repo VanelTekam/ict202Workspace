@@ -1,0 +1,86 @@
+{
+    "informations":{
+        "image":"image au format b-64",
+        "nom":"TCHATCHOUA BAYON IVAN JOEL",
+        "resume":"Software Developer"
+    }, 
+    "localisation":{
+        "telephone":"+237 620229329",
+        "email":"ivanjoelb6@gmail.com",
+        "adresse":"NGOEKELE YAOUNDE CAMEROUN"
+    },
+    "liens":{
+        "github":"https://github.com/Geekers-Joel237",
+        "linkedin":"https://www.linkedin.com/ivan-joel-tchatchoua-bayon/",
+        "stack":""   
+    },
+    "interets":[
+        {
+            "id":1,
+            "interet":"Gaming"
+        },
+        {
+            "id":2,
+            "interet":"Mangas"
+        }
+],
+    "langages":[
+            {
+                "id":1,
+                "langue":"Francais",
+                "Etat":"Lu , Parle , Ecrit"
+            },
+            {
+                "id":2,
+                "langue":"Anglais",
+                "Etat":"Lu , Parle , Ecrit"
+             }
+        ],
+    "competences":[
+        {
+            "id":1,
+            "titre":"JavaScript",
+            "pourcentage":80
+        },
+        {
+            "id":2,
+            "titre":"TypeScript",
+            "pourcentage":85   
+        }
+    ],
+    "formations":[
+        {
+            "id":1,
+            "titre":"Titre de la formation 1",
+            "etablissement":"Nom de l'etablissement",
+            "dateDedut":2019,
+            "dateFin":2022
+        },
+        {
+            "id":2,
+            "titre":"Titre de la formation 2",
+            "etablissement":"Nom de l'etablissement",
+            "dateDedut":2017,
+            "dateFin":2019
+        }
+    ],
+    "experiences":[
+        {
+            "id":1,
+            "poste":"Software Engineer",
+            "entreprise":"Google",
+            "dateDedut":2017,
+            "dateFin":2022,
+            "description":"Charge de l'integration logicielle"
+        },
+        {   
+            "id":2,
+            "poste":"Software Engineer",
+            "entreprise":"Google",
+            "dateDedut":2017,
+            "dateFin":2022,
+            "description":"Charge de l'integration logicielle"
+        }
+    ]
+    
+}
