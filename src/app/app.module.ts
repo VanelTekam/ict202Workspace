@@ -1,29 +1,24 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CompetencesComponent } from './components/competences/competences.component';
-import { ItemCompetenceComponent } from './components/item-competence/item-competence.component';
-import { ButtonComponent } from './components/button/button.component';
-import { AddCompetenceComponent } from './components/add-competence/add-competence.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CompetencesComponent,
-    ItemCompetenceComponent,
-    ButtonComponent,
-    AddCompetenceComponent,
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    FormsModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatTabsModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
