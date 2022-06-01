@@ -1,0 +1,21 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Titre</label>
+        <input 
+        type="text" 
+        name="text" 
+        id="text" 
+        [(ngModel)]="text"
+        placeholder="Add Competence"/>
+    </div>
+    <div class="form-control">
+        <label for="percent">Pourcentage</label>
+        <input 
+        type="number" 
+        name="percent" 
+        id="percent" 
+        [(ngModel)]="percent"
+        placeholder="EX:  85"/>
+    </div>
+    <input type="submit" value="Save Task " class="btn btn-block">
+</form>
